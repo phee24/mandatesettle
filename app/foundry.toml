@@ -1,0 +1,17 @@
+[profile.default]
+src = "contracts"
+test = "test"
+script = "script"
+out = "out"
+libs = ["lib"]
+solc_version = "0.8.24"
+optimizer = true
+optimizer_runs = 200
+
+[rpc_endpoints]
+hsk_testnet = "https://testnet.hsk.xyz"
+hsk_mainnet = "https://mainnet.hsk.xyz"
+
+[etherscan]
+# HashKey Chain explorers are Blockscout-based; verification is done via the
+# explorer UI / Blockscout API in Phase 2.

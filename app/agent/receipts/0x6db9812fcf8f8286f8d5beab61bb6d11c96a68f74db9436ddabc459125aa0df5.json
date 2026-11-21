@@ -1,0 +1,22 @@
+{
+  "mandateHash": "0x6db9812fcf8f8286f8d5beab61bb6d11c96a68f74db9436ddabc459125aa0df5",
+  "status": "Settled",
+  "payer": "0x5c859A2B9436DdcFDee904A78BaF680cac72a4d6",
+  "payee": "0x943C7eD4A1c8BEe29c0c4c5113D7196d6eBA26E7",
+  "token": "0xdD1B64B493eEF154Bfd0369e892ec5062Da0fFE8",
+  "amount": "25000000",
+  "taskHash": "0x12b9e3ff8a66611add1dd9d4c3428a975ad482b6e5b47c561c116b1914831fc4",
+  "deliverableHash": "0xccedb808427274f9a1e11daf3c73ed66a8331e236efed34bb4e910bd94f17a02",
+  "expiry": "2026-11-22T17:12:34.000Z",
+  "txHash": "0xd77afa2d335176804831f5f768de0a7dee945efca39c9925e111620dc4512169",
+  "explorerTx": "https://testnet-explorer.hskchain.net/tx/0xd77afa2d335176804831f5f768de0a7dee945efca39c9925e111620dc4512169",
+  "blockNumber": "36047262",
+  "settlementEvent": {
+    "payer": "0x5c859A2B9436DdcFDee904A78BaF680cac72a4d6",
+    "payee": "0x943C7eD4A1c8BEe29c0c4c5113D7196d6eBA26E7",
+    "token": "0xdD1B64B493eEF154Bfd0369e892ec5062Da0fFE8",
+    "amount": "25000000",
+    "deliverableHash": "0xccedb808427274f9a1e11daf3c73ed66a8331e236efed34bb4e910bd94f17a02"
+  },
+  "recordedAt": "2026-11-21T17:12:59.755Z"
+}
