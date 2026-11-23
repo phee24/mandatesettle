@@ -84,11 +84,11 @@ npm run probe:hsp                          # read-only probe of the live QA MCP 
                                            # (initialize + tools/list + get_chain_config only)
 ```
 
-Status of the live rail: the QA MCP server was unreachable from our sandbox
-(proxy tunnel opens, origin sends no bytes — `docs-notes.md` §8.1), so
-Mode 1 is currently proven against the mock transport, not yet live. The
-escrow mode is deployed and demoed end-to-end on HashKey testnet
-(chain 133) and mainnet (chain 177) — see **Deployments & proofs** below.
+Status of the live rail: the QA MCP server is unreachable from our sandbox — 22 Nov the origin sent no bytes (`docs-notes.md` §8.1); on the 23 Nov retry the edge answered with a Cloudflare 403 bot-block on every route, and the payer wallet still holds no testnet USDC, so no live payment has run (`hsp-live-run-2026-11-23.md`).     Mode 1 is currently proven against the mock transport, not yet live. The escrow mode is deployed and demoed end-to-end on HashKey testnet (chain 133) and mainnet (chain 177) — see **Deployments & proofs** below.
+ 
+ 
+ 
+ 
 
 ## Testnet / mainnet runs
 
@@ -122,9 +122,9 @@ bridged USDC `0x054ed45810DbBAb8B27668922D110669c9D88D0a`, USDT
 
 ## Status
 
-Phase 1 + 2a + 2b (HSP-MCP mode) complete; testnet and mainnet deployments
-are live with full end-to-end demos verified on-chain (below). Research
-notes on HSP and HashKey Chain: `docs-notes.md`.
+Phase 1 + 2a + testnet deploy/demo + mainnet deploy/demo + 2b (HSP-MCP mode) complete — see `STATUS.md`. Research notes on HSP and HashKey Chain: `docs-notes.md`.
+ 
+ 
 
 ## Deployments & proofs (live)
 
